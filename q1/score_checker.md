@@ -65,6 +65,7 @@ ELSE IF score >= 80 THEN
 ELSE IF score >= 75 THEN
   DISPLAY "Satisfactory"
 ELSE
+  DISPLAY "Needs improvement"
 END IF
 
 END
