@@ -49,3 +49,5 @@ Explain how the program decides which classification should be displayed.
 # Part 2 - Flowchart
 ## Flowchart
 ![Score Checker Flowchart](./score_checker_flowchart.png)
+
+---
