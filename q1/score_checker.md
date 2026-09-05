@@ -1,5 +1,6 @@
 # Clean Decision Code Makeover: Student Score Checker
 **Name:** Naomi Kristelle Mae L. Belleza
+
 **Section:** Dahlia
 ---
 ## Activity Overview
