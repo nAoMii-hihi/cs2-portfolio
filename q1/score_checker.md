@@ -73,3 +73,36 @@ END
 # Part 4 - Clean Code Implementation
 ## Source Code
 ![Score Checker Source Code](./score_checker.py)
+---
+# Part 5 - Testing
+| Test | Input | Purpose | Expected Output | Actual Output | Result |
+| --- | ---: | --- | --- | --- | --- |
+| 1 | -1 | Below minimum | | | |
+| 2 | 0 | Minimum boundary | | | |
+| 3 | 74 | Below Satisfactory boundary | | | |
+| 4 | 75 | Satisfactory boundary | | | |
+| 5 | 80 | Very Satisfactory boundary | | | |
+| 6 | 90 | Outstanding boundary | | | |
+| 7 | 100 | Maximum boundary | | | |
+| 8 | 101 | Above maximum | | | |
+---
+
+## Testing Reflection
+### 1. Why is it important to test the values 0 and 100?
+> Write your answers here
+### 2. Why did you also test -1 and 101?
+> Write your answers here
+### 3. Which test helped you understand boundary conditions the most?
+> Write your answers here
+### 4. Did any of your tests initially fail? If yes, what did you change in your program?
+> Write your answers here
+
+---
+
+# Reflection
+### 1. How did selection structures make the program more useful?
+> Write your answers here
+### 2. How did proper comments and readable formatting improve your program?
+> Write your answers here
+### 3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
+> Write your answers here
