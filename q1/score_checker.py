@@ -7,10 +7,10 @@ if score < 0 or score > 100:
 
 # Sort the scores by their classfication
 elif score >= 90:
-  print("Outstanding!")
+  print("Outstanding")
 elif score >= 80:
-  print("Very Satisfactory!")
+  print("Very Satisfactory")
 elif score >= 75:
-  print("Satisfactory!")
+  print("Satisfactory")
 else:
-  print("Needs improvement.")
+  print("Needs improvement")
