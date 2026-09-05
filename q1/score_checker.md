@@ -45,13 +45,7 @@ What condition will you use to determine whether the score is valid?
 ## Multiple Decision Paths
 Explain how the program decides which classification should be displayed.
 > The grade classification uses multiple decision paths because the program checks different score ranges using is, elif, and else.
-
-
-
-
-
-
-
-
-
-
+---
+# Part 2 - Flowchart
+## Flowchart
+![Score Checker Flowchart](./score_checker_flowchart.png)
