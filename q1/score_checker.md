@@ -48,6 +48,23 @@ Explain how the program decides which classification should be displayed.
 ---
 # Part 2 - Flowchart
 ## Flowchart
-![Score Checker Flowchart](./score_checker_flowchart.png)
+![Score Checker Flowchart]
 
 ---
+# Part 3 - Pseudocode
+START
+
+INPUT score
+
+IF score < 0 OR score > 100 THEN
+  DISPLAY "Invalid score."
+ELSE IF score >= 90 THEN
+  DISPLAY "Outstanding"
+ELSE IF score >= 80 THEN
+  DISPLAY "Very Satisfactory"
+ELSE IF score >= 75 THEN
+  DISPLAY "Satisfactory"
+ELSE
+END IF
+
+END
