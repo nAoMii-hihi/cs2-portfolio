@@ -7,6 +7,8 @@ Links for submission down below
 
 LINKS:
 
-[Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
+> [Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
 
-[hello.py](q1/hello.py)
+> [hello.py](q1/hello.py)
+
+> [score_checker.md](q1/score_checker.md)
