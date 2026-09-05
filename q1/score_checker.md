@@ -69,3 +69,7 @@ ELSE
 END IF
 
 END
+---
+# Part 4 - Clean Code Implementation
+## Source Code
+![Score Checker Source Code](./q1/score_checker.py)
