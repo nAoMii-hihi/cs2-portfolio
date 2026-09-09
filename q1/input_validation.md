@@ -1,7 +1,10 @@
 # Input Validation and Output Verification
 **Activity:** PSHS Workshop Registration Validator
+
 **Name:** Naomi Krsitelle Mae L. Belleza
+
 **Section:** Dahlia
+
 **Quarter:** 1
 ---
 ## Activity Overview
