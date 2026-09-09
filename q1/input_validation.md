@@ -177,16 +177,16 @@ Explain the length rule you used.
 Test your program using both valid and invalid inputs.
 | Test | Input / Condition | Validation Being Tested | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|---|
-| 1 | All inputs valid | Normal case | | | |
-| 2 | Blank student name | Presence | | | |
-| 3 | Age = `fourteen` | Data type | | | |
-| 4 | Age = `11` | Minimum boundary | | | |
-| 5 | Age = `18` | Maximum boundary | | | |
-| 6 | Age = `10` | Range | | | |
-| 7 | Grade Level = `13` | Acceptable value | | | |
-| 8 | Email = `studentpshs.edu.ph` | Pattern | | | |
-| 9 | Registration Code = `ABC` | Length | | | |
-| 10 | Registration Code = `CS2026` | Valid length | | | |
+| 1 | All inputs valid | Normal case | Student details are displayed. | Student details are displayed. | PASS |
+| 2 | Blank student name | Presence | A student name is required. | A student name is required. | PASS |
+| 3 | Age = `fourteen` | Data type | Age is required to be a number. | Age is required to be a number. | PASS |
+| 4 | Age = `11` | Minimum boundary | Student details are displayed. | Student details are displayed. | PASS |
+| 5 | Age = `18` | Maximum boundary | Student details are displayed. | Student details are displayed. | PASS |
+| 6 | Age = `10` | Range | Age must be between 11 and 18. | Age must be between 11 and 18. | PASS |
+| 7 | Grade Level = `13` | Acceptable value | Invalid grade level. | Invalid grade level. | PASS |
+| 8 | Email = `studentpshs.edu.ph` | Pattern | Invalid email. | Invalid email. | PASS |
+| 9 | Registration Code = `ABC` | Length | The registration code must contain 6 characters. | The registration code must contain 6 characters. | PASS |
+| 10 | Registration Code = `CS2026` | Valid length | Student details are displayed. | Student details are displayed | |
 Write **PASS** when the actual output matches the expected output.
 Write **FAIL** when it does not.
 ---
@@ -195,65 +195,69 @@ Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
 ```text
-Write the input here.
+Age = fourteen
 
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+REGISTRATION NOT ACCEPTED
+Age is required to be a number.
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+REGISTRATION NOT ACCEPTED
+Age is required to be a number.
 ```
-**Result:** PASS / FAIL
+**Result:** PASS 
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> The age was not entered as an integer, so the program rejected it.
 ---
 ## Verification Test 2
 **Input:**
 ```text
-Write the input here.
+Email = studentpshs.edu.ph
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+REGISTRATION NOT ACCEPTED
+Invalid email.
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+REGISTRATION NOT ACCEPTED
+Invalid email.
 ```
-**Result:** PASS / FAIL
+**Result:** PASS 
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> The email did not contain a @, so the program rejected it.
 ---
 ## Verification Test 3
 **Input:**
 ```text
-Write the input here.
+CS2026
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+Student details are displayed.
 ```
 **Actual Output:**
 
 ```text
-Write the actual output here.
+Student details are displayed.
 ```
-**Result:** PASS / FAIL
+**Result:** PASS
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> CS2026 contains exactly 6 characters, so it passes the registration code validation.
 ---
 # Reflection
 Answer briefly.
 ### 1. Why should a program validate input before processing it?
-> Write your answer here.
+> To prevent incorrect inputs and errors in the program.
 ### 2. What is the difference between input validation and output verification?
-> Write your answer here.
+> Input validation checks if the data is valid, while the output verification checks if the result is correct.
 ### 3. Which validation technique was easiest for you to implement? Why?
-> Write your answer here.
+> Presence validation was the easiest for me because I only had to check if the name was blank or empty,
 ### 4. Which validation technique was most challenging? Why?
-> Write your answer here.
+> Data type validation was the most challenging due to the fact that I had to handle inputs that were not integers.
 ### 5. How did testing invalid inputs help you improve your program?
-> Write your answer here.
+> It helped me make sure that the program properly rejected invalid outputs.
