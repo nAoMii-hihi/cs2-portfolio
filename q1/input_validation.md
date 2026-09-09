@@ -45,7 +45,36 @@ Before writing your program, create either a **flowchart or pseudocode** showing
 ## Pseudocode
 
 ```text
+START
 
+INPUT student name
+IF student name is blank
+  DISPLAY "REGISTRATION NOT ACCEPTED"
+  STOP
+END IF
+
+INPUT age
+IF age is not a number OR age < 11 OR age > 18
+  DISPLAY "REGISTRATION NOT ACCEPTED"
+  STOP
+END IF
+
+INPUT email
+IF email does not contain "@"
+  DISPLAY "REGISTRATION NOT ACCEPTED"
+  STOP
+END IF
+
+INPUT registration code
+IF registration code length != 6
+  DISPLAY "REGISTRATION NOT ACCEPTED"
+  STOP
+END IF
+
+DISPLAY "REGISTRATION ACCEPTED"
+DISPLAY student name, age, grade level, email, registration code
+
+END
 ```
 ---
 # Part C - Program Implementation
