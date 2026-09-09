@@ -8,9 +8,7 @@
 **Quarter:** 1
 ---
 ## Activity Overview
-In this activity, I created a program that validates information entered into a PSHS workshop registration
-system.
-The program checks whether user input satisfies specific requirements before accepting the registration.
+In this activity, I created a Python program that collects student information and checks whether the inputs are valid. I used different validation techniques such as presence, data type, range, pattern, and length validation. I also tested different inputs to ensure that the program could properly accept valid information and reject invalid information. 
 The program validates:
 - student name
 - age
