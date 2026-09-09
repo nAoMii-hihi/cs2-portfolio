@@ -7,6 +7,7 @@
 
 LINKS:
 
+
 > [Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
 
 > [hello.py](q1/hello.py)
@@ -16,3 +17,7 @@ LINKS:
 > [score_checker.py](q1/score_checker.py)
 
 > [score_checker_flowchart.png](q1/score_checker_flowchart.png)
+
+> [input_validation.md](q1/input_validation.md)
+
+> [workshop_validator.py](q1/workshop_validator.py)
