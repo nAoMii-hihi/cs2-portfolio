@@ -52,7 +52,7 @@ Before writing your program, create either a **flowchart or pseudocode** showing
 ## Programming Language
 > Python
 ## Source Code File
-[workshop_validator.py](q1/workshop_validator.py)
+![workshop_validator.py](./workshop_validator.py)
 ## Final Code
 ```python
 # Part 1, Student Name - Presence Validation
