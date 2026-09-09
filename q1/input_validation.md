@@ -18,6 +18,7 @@ The program validates:
 ---
 # Part A - Validation Requirements
 Complete the table below before writing your program.
+
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
@@ -43,9 +44,7 @@ Message |
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
 ## Flowchart
 Insert your flowchart below.
-![Workshop Validator Flowchart](workshop_validator_flowchart.png)
-OR
-## Pseudocode
+
 
 ```text
 START
