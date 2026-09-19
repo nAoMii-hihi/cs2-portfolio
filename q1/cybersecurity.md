@@ -135,3 +135,33 @@ print("Club Choice: ", club_choice)
 print("School Email: ", school_email)
 print("Attendance Status: ", attendance_status)
 ```
+---
+
+## Security Practices Applied
+### Required Input
+Explain how you handled blank input.
+> Blank student names are rejected because a student name is required for registration.
+
+### Allowed Values
+Explain which fields accept only predefined values.
+> Section, club choices, and attendance status only accept predefined values. This prevents invalid inputs from being accepted.
+
+### Format Check
+Explain your simple email validation rule.
+> The email must contain "@" and ".". This provides a simple check for the required email format.
+
+### Error Messages
+Explain why clear error messages are useful.
+> Clear error messages tell the user what went wrong so they know what needs to be corrected.
+
+### Data Minimization
+Explain what information you intentionally did NOT collect and why.
+> The program does not collect passwords, OTPs, home addresses, or baking information because these are unnecessary for club registration.
+---
+# Part E - Testing and Reflection
+## Testing
+| Test | Input Situation | Expected Output | Actual Output | Result |
+|---:|---|---|---|---|
+| 1 | All data valid | | | |
+| 2 | Blank student name | | | |
+| 3 | Invalid section | | | |
