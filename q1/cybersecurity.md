@@ -57,4 +57,24 @@ Determine whether each item is really necessary.
 ## Privacy Question
 Why is it safer to collect only information that the program actually needs?
 > It is safer to collect only needed information to reduce the amount of data that could be exposed or misused. It also protects the user's privacy.
+
 ---
+# Part C - Security-Focused Validation Rules
+Complete the table before writing your program.
+| Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
+Message |
+|---|---|---|---|---|---|
+| Student Name | | | | | |
+| Section | | | | | |
+| Club Choice | | | | | |
+| School Email | | | | | |
+| Attendance Status | | | | | |
+---
+
+## Secure Data Capture Questions
+### 1. What should your program accept?
+> Write your answer here.
+### 2. What should your program reject?
+> Write your answer here.
+### 3. How do your validation rules help reduce incorrect or unsafe input?
+> Write your answer here.
