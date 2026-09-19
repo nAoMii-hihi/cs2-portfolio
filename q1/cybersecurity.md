@@ -1,7 +1,9 @@
 # Fundamentals of Cybersecurity and Data Privacy
 **Activity:** PSHS Secure Club Registration System
+
 **Name:** Naomi Kristelle Mae L. Belleza
 **Section:** Dahlia
+
 **Quarter:** 1
 --
 
