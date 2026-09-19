@@ -63,20 +63,20 @@ Why is it safer to collect only information that the program actually needs?
 Complete the table before writing your program.
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
-| Section | | | | | |
-| Club Choice | | | | | |
-| School Email | | | | | |
-| Attendance Status | | | | | |
+| Student Name | A Non-Blank Name | Missing Identity | Blank | Must Not Be Blank | Student name is required. |
+| Section | Dahlia | Wrong section | Rosal | Must Equal Dahlia | Invalid section. |
+| Club Choice | SIGMa, English, Polaris, BahayNayan, Dance Troupe, Sports | Invalid Club Choice | Programming | Must Be One of The Allowed Clubs | Kindly choose a valid club. |
+| School Email | School Email containing "@" and "." | Invalid Email Format | studentpshs.edu.ph | Must Contain "@" and "." | Kindly enter a valid school email. |
+| Attendance Status | Present, Absent, Late | Invalid Attendance Record | Maybe | Must Be One of The Allowed Values | Invalid attendance status. |
 ---
 
 ## Secure Data Capture Questions
 ### 1. What should your program accept?
-> Write your answer here.
+> The program should accept a non-blank name, the correct section, a valid club choice, a valid school email, and an allowed attendance status.
 ### 2. What should your program reject?
-> Write your answer here.
+> The program should reject blank names, invalid sections, invalid club choices, incorrectly formatted emails, and invalid attendance statuses.
 ### 3. How do your validation rules help reduce incorrect or unsafe input?
-> Write your answer here.
+> The validation rules prevent incorrect values from being accepted. They also make sure that the program collects only the expected information.
 ---
 
 # Part D - Secure Program Implementation
@@ -162,6 +162,32 @@ Explain what information you intentionally did NOT collect and why.
 ## Testing
 | Test | Input Situation | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|
-| 1 | All data valid | | | |
-| 2 | Blank student name | | | |
-| 3 | Invalid section | | | |
+| 1 | All data valid | Registration Accepted | Registration Accepted | PASS |
+| 2 | Blank student name | Rejected | Rejected | PASS |
+| 3 | Invalid section | Rejected | Rejected | PASS |
+| 4 | Invalid club choice | Rejected | Rejected | PASS |
+| 5 | Email missing @ | Rejected | Rejected | PASS |
+| 6 | Email missing . | Rejected | Rejected | PASS |
+| 7 | Invalid attendance status | Rejected | Rejected | PASS |
+| 8 | Different valid inputs | Accepted | Accepted | PASS |
+Use:
+- *PASS* if the actual result matches the expected result.
+- *FAIL* if it does not.
+  
+---
+
+# Reflection
+### 1. What is one cybersecurity threat that can affect an application or user?
+> One cybersecurity threat is phishing. It can trick users into giving away private information such as usernames and passwords.
+
+### 2. How can users reduce the risk of phishing or suspicious messages?
+> Users can avoid clicking suspicious links, check the sender, and verify messages through official sources before providing information.
+
+### 3. How can validation rules improve the security of user input?
+> Validation rules ensure that only accepted and appropriate information is accepted. They can prevent incorrect or unsafe input from entering the program.
+
+### 4. Why should a program avoid collecting unnecessary personal information?
+> A program should avoid unnecessary personal information because less collected data means less information that could be exposed or misused.
+
+### 5. How did SG7's input validation concepts become security practices in SG8?
+> SG7 taught me how to check and validate data input. In SG 8, I used these skills to make sure the program accepts only correct and safe information.
