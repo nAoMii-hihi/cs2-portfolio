@@ -1,11 +1,11 @@
 # Fundamentals of Cybersecurity and Data Privacy
 **Activity:** PSHS Secure Club Registration System 
 
-**Name: Naomi Kristelle Mae L. Belleza** 
+**Name:** Naomi Kristelle Mae L. Belleza
 
-**Section: Dahlia**
+**Section:** Dahlia
 
-**Quarter: 1** 
+**Quarter:** 1 
 ---
 
 ## Activity Overview
@@ -15,14 +15,15 @@ In this activity, I learned about cybersecurity and data privacy. I checked for 
 # Part A - Cybersecurity Threat Analysis
 ## Assigned Case
 
-**Case Number:**
+**Case Number:** 1
 **Case Title: Fake Login Alert**
-> Briefly describe the case here.
+> A message claims that the student's account will be disabled and asks them to click a link and enter their
+username and password.
 ---
 ### 1. What cybersecurity threat is shown?
-> Write your answer here.
+> The threat shown is **phishing**. It is an attempt to trick a user into giving private account information through a fake message or link.
 ### 2. What warning signs make the situation suspicious?
-> Write your answer here.
+> The message threatens that the account will be disabled and asks the student to click a link and enter their username and password. These are warning sighs because the message may not come from a trusted school source.
 ### 3. What may be affected?
 Check or describe all that apply:
 - Data
@@ -30,9 +31,30 @@ Check or describe all that apply:
 - Application
 - Device
 - Network
-- Financial information
-> Explain your answer.
+  
+> The student's account information could be stolen. The link could also lead to a harmful website or application that may affect the device or network.
 ### 4. What information could be exposed or misused?
-> Write your answer here.
+> The student's username and password could be exposed. If stolen, they could be used to access the student's account and possibly other private information. 
 ### 5. What should the user do to reduce the risk?
-> Write your answer here.
+> The user should not click the link nor enter their password. They should verify the message through an official school channel and report the suspicious message if necessary.
+---
+
+# Part B - Data Privacy and Secure Data Capture
+A proposed Club Registration System wants to collect the following information.
+Determine whether each item is really necessary.
+| Data | Collect / Do Not Collect | Reason |
+|---|---|---|
+| Student Name | Collect | Needed to identify the student. |
+| Section | Collect | Needed to identify the student's section. |
+| Club Choice | Collect | Needed to identify which club the student selected. |
+| School Email | Collect | Needed for school-related communication. |
+| Attendance Status | Collect | Needed to record the student's attendance status. |
+| Password | Do Not Collect | Not necessary for club registration. |
+| OTP | Do Not Collect | Not needed for the activity. |
+| Home Address | Do Not Collect | Not necessary for club registration. |
+| Parent Bank Account | Do Not Collect | Financial information is unnecessary for this activity. |
+
+## Privacy Question
+Why is it safer to collect only information that the program actually needs?
+> It is safer to collect only needed information to reduce the amount of data that could be exposed or misused. It also protects the user's privacy.
+---
