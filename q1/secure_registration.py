@@ -6,8 +6,10 @@ if not student_name:
   raise SystemExit
 
 # Section
-section = str(input("Enter section: ")).strip()
-if section != "Dahlia":
+section = str(input("Enter section (Diamond, Emerald, Jade, Sapphire, Dahlia, Ilang-Ilang, Rosal, Sampaguita, Berrylium, Magnesium, Platinum, Silicon, Electron, Gluon, Graviton, Photon, Biology, Chemistry, Physics, Bio-Chemistry): ")).strip()
+allowed_sections = ["Diamond", "Emerald", "Jade", "Sapphire", "Dahlia", "Ilang-Ilang", "Rosal", "Sampaguita", "Berrylium", "Magnesium", "Platinum", "Silicon", "Electron", "Gluon", "Graviton", "Photon", "Biology", "Chemistry", "Physics", "Bio-Chemistry"]
+
+if section not in allowed_sections:
   print("Registration Not Accepted.")
   print("Error: Invalid section.")
   raise SystemExit
