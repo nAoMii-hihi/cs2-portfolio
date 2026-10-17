@@ -11,9 +11,9 @@ payment = float(input("Enter the amount paid: "))
 total = calculate_total(price, quantity)
 change = calculate_change(payment, total)
 
-print(f"The total Cost: Php {total:.2f}")
+print(f"The total Cost: PHP {total:.2f}")
 
 if change >= 0:
-    print(f"Change: Php {change:.2f}")
+    print(f"Change: PHP {change:.2f}")
 else:
-    print(f"Shortage: Php {-change:.2f}")
+    print(f"Shortage: PHP {-change:.2f}")
