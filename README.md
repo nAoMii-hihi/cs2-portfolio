@@ -5,7 +5,7 @@
 
 ☆ °**Links for submission down below**° ☆
 
-LINKS:
+Quarter 1 LINKS:
 
 
 > [Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
@@ -25,3 +25,6 @@ LINKS:
 > [cybersecurity.md](q1/cybersecurity.md) 
 
 > [secure_registration.py](q1/secure_registration.py)
+
+---
+Quarter 1 LINKS:
