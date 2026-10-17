@@ -5,7 +5,7 @@
 
 ☆ °**Links for submission down below**° ☆
 ---
-## Quarter 1 LINKS:
+## Quarter 1 LINKS: ‎ꫂ᭪݁
 
 
 > [Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
@@ -27,4 +27,5 @@
 > [secure_registration.py](q1/secure_registration.py)
 
 ---
-## Quarter 2 LINKS:
+## °❀.ೃ࿔ Quarter 2 LINKS: °❀.ೃ࿔
+> [canteen_calculator.py](q2/canteen_calculator.py)
