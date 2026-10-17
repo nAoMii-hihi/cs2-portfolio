@@ -20,10 +20,10 @@ else:
 
 
 #1. What does each function do?
-# The calculate_total() multiplies price by quantity, and the calculate_change() subtracts total from the payment.
+> # The calculate_total() multiplies price by quantity, and the calculate_change() subtracts total from the payment.
 #2. What is the difference between the parameters price and quantity and the actual arguments passed to the function?
-# Parameters are variables in a function definition, while arguments are values passed when calling a function. 
+> # Parameters are variables in a function definition, while arguments are values passed when calling a function. 
 #3. Where is the returned total stored, and how is it reused?
-#The returned total is stored in the variable total. It is reused to calculate the change and display the cost.
+> #The returned total is stored in the variable total. It is reused to calculate the change and display the cost.
 #4. Why is it useful to separate total calculation from change calculation?
-# It makes the program easier to read, test, and reuse.
+> # It makes the program easier to read, test, and reuse.
