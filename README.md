@@ -4,8 +4,8 @@
 ## 8 - Dahlia
 
 ☆ °**Links for submission down below**° ☆
-
-Quarter 1 LINKS:
+---
+## Quarter 1 LINKS:
 
 
 > [Belleza_NaomiKristelleMae_Distance.py](q1/Belleza_NaomiKristelleMae_Distance.py)
@@ -27,4 +27,4 @@ Quarter 1 LINKS:
 > [secure_registration.py](q1/secure_registration.py)
 
 ---
-Quarter 1 LINKS:
+## Quarter 2 LINKS:
