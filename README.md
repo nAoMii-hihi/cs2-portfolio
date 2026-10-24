@@ -29,4 +29,5 @@
 ---
 ## °❀.ೃ࿔ Quarter 2 LINKS: °❀.ೃ࿔
 > [canteen_calculator.py](q2/canteen_calculator.py)
-. [student_performance.py](q2/student_performance.py)
+
+> [student_performance.py](q2/student_performance.py)
