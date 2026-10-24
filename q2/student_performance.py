@@ -29,8 +29,13 @@ print("Performance:", performance)
 print("Eligible for Challenge:", eligible)
 
 ---
-#Documentation Questions
-# 1. Which function returns a number, which returns a string, and which returns a Boolean?
-2. Explain how the average moves from calculate_average() into get_performance().
-3. What happens when a student has a high average but has completed fewer than three tasks?
-4. Why is return more appropriate than simply printing the result inside each function?
+
+**Documentation Questions**
+### 1. Which function returns a number, which returns a string, and which returns a Boolean?
+> 
+### 2. Explain how the average moves from calculate_average() into get_performance().
+>
+### 3. What happens when a student has a high average but has completed fewer than three tasks?
+>
+### 4. Why is return more appropriate than simply printing the result inside each function?
+>
