@@ -33,3 +33,5 @@
 > [student_performance.py](q2/student_performance.py)
 
 > [Programming_Exercises.py](q2/Programming_Exercises.py)
+
+> [Programming_Exercises2.py](q2/Programming_Exercises2.py)
